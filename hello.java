@@ -40,7 +40,7 @@ class HashTable
         if (arr[ele % capacity] == ele)
             arr[ele % capacity] = 0;
         else
-            System.out.println("\nError : Element not found\n");
+            System.out.println("\nError means chki: Element not found\n");
     }
  
     /** Function to generate next prime number >= n **/
